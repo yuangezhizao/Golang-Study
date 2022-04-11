@@ -1,0 +1,45 @@
+yuangezhizao@MacMini remote_package % glide init
+[INFO]  Generating a YAML configuration file and guessing the dependencies
+[INFO]  Attempting to import from other package managers (use --skip-import to skip)
+[INFO]  Scanning code to look for dependencies
+[INFO]  --> Found test reference to github.com/orcaman/concurrent-map
+[INFO]  Writing configuration file (glide.yaml)
+[INFO]  Would you like Glide to help you find ways to improve your glide.yaml configuration?
+[INFO]  If you want to revisit this step you can use the config-wizard command at any time.
+[INFO]  Yes (Y) or No (N)?
+Y
+[INFO]  Looking for dependencies to make suggestions on
+[INFO]  --> Scanning for dependencies not using version ranges
+[INFO]  --> Scanning for dependencies using commit ids
+[INFO]  Gathering information on each dependency
+[INFO]  --> This may take a moment. Especially on a codebase with many dependencies
+[INFO]  --> Gathering release information for dependencies
+[INFO]  --> Looking for dependency imports where versions are commit ids
+[INFO]  Here are some suggestions...
+[INFO]  The package github.com/orcaman/concurrent-map appears to have Semantic Version releases (http://semver.org).
+[INFO]  The latest release is v1.0.0. You are currently not using a release. Would you like
+[INFO]  to use this release? Yes (Y) or No (N)
+Y
+[INFO]  Would you like to remember the previous decision and apply it to future
+[INFO]  dependencies? Yes (Y) or No (N)
+N
+[INFO]  Updating github.com/orcaman/concurrent-map to use the release v1.0.0 instead of no release
+[INFO]  The package github.com/orcaman/concurrent-map appears to use semantic versions (http://semver.org).
+[INFO]  Would you like to track the latest minor or patch releases (major.minor.patch)?
+[INFO]  The choices are:
+[INFO]   - Tracking minor version releases would use '>= 1.0.0, < 2.0.0' ('^1.0.0')
+[INFO]   - Tracking patch version releases would use '>= 1.0.0, < 1.1.0' ('~1.0.0')
+[INFO]   - Skip using ranges
+[INFO]  For more information on Glide versions and ranges see https://glide.sh/docs/versions
+[INFO]  Minor (M), Patch (P), or Skip Ranges (S)?
+S
+[INFO]  Would you like to remember the previous decision and apply it to future
+[INFO]  dependencies? Yes (Y) or No (N)
+N
+[INFO]  Configuration changes have been made. Would you like to write these
+[INFO]  changes to your configuration file? Yes (Y) or No (N)
+Y
+[INFO]  Writing updates to configuration file (glide.yaml)
+[INFO]  You can now edit the glide.yaml file.:
+[INFO]  --> For more information on versions and ranges see https://glide.sh/docs/versions/
+[INFO]  --> For details on additional metadata see https://glide.sh/docs/glide.yaml/
