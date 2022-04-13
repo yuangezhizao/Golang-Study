@@ -24,6 +24,7 @@ func TestService(t *testing.T) {
 
 func AsyncService() chan string {
 	retCh := make(chan string)
+	//retCh := make(chan string, 1)
 
 	go func() {
 		ret := service()
@@ -38,4 +39,5 @@ func TestAsynService(t *testing.T) {
 	retCh := AsyncService()
 	otherTask()
 	fmt.Println(<-retCh)
+	time.Sleep(time.Second * 1)
 }
